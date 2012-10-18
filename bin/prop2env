@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.expand_path("../../lib", __FILE__)
+$STDOUT.sync = true
+
+require 'prop2env'
+
+Prop2env::CLI.start
+
+
